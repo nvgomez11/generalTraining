@@ -61,3 +61,245 @@
 a:hover {
     color: red;
 }
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      
+    .facebook-container {
+        background-color: #27782d;
+    }
+
+    .twitter-container {
+        background-color: #f42929;
+    }
+
+    .instagram-container {
+        background-color: #782740;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      
+    .facebook-container {
+        background-color: #27782d;
+    }
+
+    .twitter-container {
+        background-color: #f42929;
+    }
+
+    .instagram-container {
+        background-color: #782740;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    .facebook-container {
+        background-color: #27782d;
+    }
+
+    .twitter-container {
+        background-color: #f42929;
+    }
+
+    .instagram-container {
+        background-color: #782740;
+    }
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    
+    .facebook-container {
+        background-color: #27782d;
+    }
+
+    .twitter-container {
+        background-color: #f42929;
+    }
+
+    .instagram-container {
+        background-color: #782740;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    
+    .facebook-container {
+        background-color: #27782d;
+    }
+
+    .twitter-container {
+        background-color: #f42929;
+    }
+
+    .instagram-container {
+        background-color: #782740;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    .facebook-container {
+        background-color: #27782d;
+    }
+
+    .twitter-container {
+        background-color: #f42929;
+    }
+
+    .instagram-container {
+        background-color: #782740;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .facebook-container {
+        background-color: #27782d;
+    }
+
+    .twitter-container {
+        background-color: #f42929;
+    }
+
+    .instagram-container {
+        background-color: #782740;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .facebook-container {
+        background-color: #27782d;
+    }
+
+    .twitter-container {
+        background-color: #f42929;
+    }
+
+    .instagram-container {
+        background-color: #782740;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    .facebook-container {
+        background-color: #27782d;
+    }
+
+    .twitter-container {
+        background-color: #f42929;
+    }
+
+    .instagram-container {
+        background-color: #782740;
+    }
+
+}

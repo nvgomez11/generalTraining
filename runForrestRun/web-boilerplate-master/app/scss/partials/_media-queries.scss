@@ -18,16 +18,25 @@
    ========================================================================== */
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles */
- }
- 
- /* Smartphones (landscape) ----------- */
- @media only screen and (min-width : 321px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
     /* Styles */
     nav {
         display: none;
     }
+
+    .banner-container {
+        background-image: url(/generalTraining/runForrestRun/web-boilerplate-master/app/images/banner-mobile.png);
+        background-size: 100%;
+        width: 100%;
+        height: 304px;
+        background-repeat: no-repeat;   
+    }
+
+ }
+ 
+ /* Smartphones (landscape) ----------- */
+ @media only screen and (min-width : 321px) {
+    /* Styles */
  }
  
  /* Smartphones (portrait) ----------- */
@@ -148,6 +157,15 @@
                  width: 28%;
              }
     }
+
+    .banner-container {
+        background-image: url(/generalTraining/runForrestRun/web-boilerplate-master/app/images/banner-mobile.png);
+        background-size: 100%;
+        width: 100%;
+        height: 428px;
+        background-repeat: no-repeat;   
+    }
+
  }
  
  @media only screen and (min-width: 1024px) {
@@ -155,6 +173,15 @@
          display: none;
      }
 
+     
+    .banner-container {
+        background-image: url(/generalTraining/runForrestRun/web-boilerplate-master/app/images/banner.png);
+        background-size: 100%;
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;   
+    }
+     
  }
  
  /* ==========================================================================

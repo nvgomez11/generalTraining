@@ -21,11 +21,6 @@ textarea {
     color: #221;
 }
 
-body {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -47,11 +42,19 @@ hr {
 }
 
 h1 {
-    font-family: $font-regular;
+    font-size: 11pt;
+    font-weight: bold;
 }
 
-img {
-    vertical-align: middle;
+h3 {
+    font-size: 9pt;
+}
+
+p {
+    font-size: 8pt;
+    text-align: justify;
+    margin-left: 7px;
+    
 }
 
 fieldset {
@@ -64,35 +67,92 @@ textarea {
     resize: vertical;
 }
 
-body {
+nav {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
 .wrapper {
     /*width: 90%;*/
-    margin: 0 1%;
+    margin: 0 3%;
     padding-top: 1%;
 }
 
-/* ==============
-    MOBILE: Main
-   ============== */
+.contratar-button {
+	background-color:#000000;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:5px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
 
-.main {
-    padding: 30px 0;
 
-    article {
+.info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: space-around;*/
+    align-content: space-between;
+    margin: 40px;
 
-        h1 {
-            font-size: 2em;
+    .agent-container {
+        width: 244px;
+        margin: 20px 25px;
+
+        .information-header {
+            width: 100%;
+            display: flex;
+            justify-content: stretch;
+            border-bottom: 1px solid gray;
+            margin-bottom: 5px;
+            h1 {
+                width: 86%;
+            }
+            .certified-container {
+                width: 14%;
+            }
+        }
+
+        .information-body {        
+            display: inline-flex;
+            height: auto;
+
+            .agent-image-container{ 
+                background-color: lightgreen;
+                img {
+                    width: 100%;
+                    height: auto; 
+                }
+            }
+            .agent-description-container {
+                margin-left: 20px;
+                p {
+                    text-align: justify;
+                }  
+            }
+        }
+        .information-footer {
+            width: 100%;
+            display: flex;
+            h3 {
+                width: 54%;
+            }
+            button {
+                width: 46;
+            }
+    
         }
     }
-
-    aside {
-        color: white;
-        padding: 0px 5% 10px;
-    }
 }
+
+
 
 
 

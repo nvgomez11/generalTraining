@@ -229,15 +229,15 @@ nav {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  /*justify-content: space-around;*/
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-line-pack: justify;
       align-content: space-between;
-  margin: 40px;
 }
 
 .info-container .agent-container {
   width: 244px;
-  margin: 20px 25px;
+  margin: 40px 38px;
 }
 
 .info-container .agent-container .information-header {
@@ -433,6 +433,9 @@ nav {
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
+  }
+  .infor-container {
+    margin: 40px;
   }
 }
 

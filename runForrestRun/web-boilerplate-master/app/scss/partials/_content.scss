@@ -98,13 +98,12 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*justify-content: space-around;*/
+    justify-content: space-around;
     align-content: space-between;
-    margin: 40px;
 
     .agent-container {
         width: 244px;
-        margin: 20px 25px;
+        margin: 40px 38px;
 
         .information-header {
             width: 100%;

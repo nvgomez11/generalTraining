@@ -105,3 +105,19 @@
 .clearfix {
     *zoom: 1;
 }
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    border:1px solid gray;
+    padding: 0 13px;
+    input {
+        width: 90%;
+    }
+    a {
+        &:hover{
+            cursor: grab;    
+        }
+    }
+}

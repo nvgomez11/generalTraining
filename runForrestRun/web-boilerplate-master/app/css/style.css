@@ -30,11 +30,6 @@
 /* ===================
     ALL: Orange Theme
    =================== */
-.footer-container,
-.main aside {
-  border-top: 20px solid #866f69;
-}
-
 .header-container,
 .footer-container,
 .main aside {
@@ -421,6 +416,13 @@ nav {
     height: 428px;
     background-repeat: no-repeat;
   }
+  .info-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -436,6 +438,14 @@ nav {
   }
   .infor-container {
     margin: 40px;
+  }
+  .info-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 

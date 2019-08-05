@@ -166,6 +166,11 @@
         background-repeat: no-repeat;   
     }
 
+    .info-footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
  }
  
  @media only screen and (min-width: 1024px) {
@@ -184,6 +189,11 @@
 
     .infor-container {
         margin: 40px;
+    }
+
+    .info-footer {
+        display: flex;
+        justify-content: space-between;
     }
      
  }

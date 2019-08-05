@@ -73,7 +73,7 @@ function pokemonBattle (pokemon1, pokemon2){
 
 function damage (pokemon1, pokemon2, efectiveness) {
     let damage = 50 * (pokemon1.attack/pokemon2.defense) * efectiveness;
-    return damage;
+    return Math.ceil(damage);
 }
 
 

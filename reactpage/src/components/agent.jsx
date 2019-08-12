@@ -6,16 +6,18 @@ class Agent  extends Component {
     render() { 
         const search = this.props.search
         let filteredAgents = this.props.agents.filter( agent =>
-            agent.name.includes(search)
+            agent.name.toLowerCase().includes(search.toLowerCase())
         )
         return ( 
             <div className="wrapper info-container">
                 { filteredAgents.map( (agent)=> 
                     <AgentCard
-                        key={agent.id} 
+                        key={agent.name} 
                         name={agent.name}
                         description={agent.description}
-                        price={agent.price}>
+                        rate={agent.rate}
+                        hours={agent.hours}
+                        isCertified={agent.isCertified}>
                     </AgentCard> )}
             </div>
          );

@@ -7,15 +7,18 @@ class AgentCard extends Component {
     state = { 
         name: this.props.name,
         description: this.props.description,
-        price: this.props.price
+        rate: this.props.price,
+        hours: this.props.hours,
+        isCertified: this.props.isCertified
      }
+
     render() { 
         return (
             <div className="agent-container">
                 <div className="information-header">
                     <h1>{this.state.name}</h1>
                     <div className="certified-container">
-                            <img src={certified}></img>
+                            {this.state.isCertified ? <img src={certified}></img> : false }
                     </div>                            
                 </div>
                 <div className="information-body">
@@ -23,7 +26,7 @@ class AgentCard extends Component {
                     <p className="agent-description">{this.state.description}</p>
                 </div>
                 <div className="information-footer">
-                    <h3>{this.state.price}</h3>
+                    <h3>{this.state.rate}</h3>
                     <button className="contratar-button">Contratar</button>
                 </div>
             </div>

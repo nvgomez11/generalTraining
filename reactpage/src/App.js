@@ -38,9 +38,15 @@ class App extends Component {
   }
 
   handleOnChange = (search) => {
-	this.setState({
-		search: search.target.value
-	});
+	if (search.target.value.length >= 3){
+		this.setState({
+			search: search.target.value
+		});
+	}else{
+		this.setState({
+			search: ''
+		});
+	}
   }
 
   render() { 
